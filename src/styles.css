@@ -166,7 +166,8 @@ details[open] > summary span { transform: rotate(45deg); }
   .profile-figure { margin: 0; max-width: 370px; }
   .profile-figure figcaption p { max-width: 350px; }
   /* Mobile order: title, portrait, then the bio and actions. */
-  .hero-row { --bs-gutter-x: 0; margin-left: 0; margin-right: 0; }
+  .hero-row { --bs-gutter-x: 0; margin: 0; }
+  .hero-row > * { margin-top: 0; }
   .hero-copy { display: contents; }
   .hero-copy > *,
   .hero-figure { width: 100%; margin: 0; padding: 0; }
