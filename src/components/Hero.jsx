@@ -3,7 +3,7 @@ import { Links, OptionalImage } from './Shared.jsx';
 export default function Hero({ profile, cvUrl }) {
   return (
     <section className="hero" id="about" aria-labelledby="profile-name">
-      <div className="row align-items-center gy-5 gx-lg-5">
+      <div className="row align-items-center gy-5 gx-lg-5 hero-row">
         <div className="col-lg-8 hero-copy">
           <h1 id="profile-name">{profile.name}</h1>
           <p className="hero-headline">{profile.headline}</p>
@@ -13,7 +13,7 @@ export default function Hero({ profile, cvUrl }) {
             <a className="btn btn-primary" href={cvUrl} target="_blank" rel="noopener noreferrer">View curriculum vitae <span aria-hidden="true">↗</span></a>
           </div>
         </div>
-        <div className="col-lg-4">
+        <div className="col-lg-4 hero-figure">
           <figure className="profile-figure">
             <div className="portrait-frame"><OptionalImage src={profile.image} alt={profile.imageAlt} className="portrait img-fluid" priority /></div>
           </figure>
