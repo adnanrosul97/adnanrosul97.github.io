@@ -15,7 +15,6 @@ export default function App() {
       <main id="main" className="container page-shell">
         <Hero profile={profile} cvUrl={cvUrl} />
         <div className="row gx-xl-5 body-grid">
-
           <div className="col-xl-12 sections">
             <Education items={data.education} />
             <Research items={data.research} interests={data.interests} />
