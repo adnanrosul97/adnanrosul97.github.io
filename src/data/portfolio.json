@@ -121,8 +121,8 @@
     }
   ],
   "skills": [
-    { "id": "systems", "category": "Systems", "items": ["TensorFlow model training", "VRAM-aware batch scheduling", "Cloud checkpointing", "REST APIs", "IoT monitoring", "Real-time KPI dashboards"] },
-    { "id": "ai-cv", "category": "AI & Computer Vision", "items": ["White-box GANs", "CycleGAN", "Conditional WGAN", "CNNs", "VGG feature extraction", "Sparse coding", "Morphological component analysis", "Patch discriminators"] },
+    { "id": "systems", "category": "Systems", "items": ["TensorFlow model training", "Cloud checkpointing", "REST APIs", "IoT monitoring", "Real-time KPI dashboards"] },
+    { "id": "ai-cv", "category": "AI & Computer Vision", "items": ["White-box GANs", "CycleGAN", "Conditional WGAN", "CNNs", "VGG feature extraction", "Patch discriminators"] },
     { "id": "data-engineering", "category": "Data Engineering", "items": ["SQL query optimization", "Power BI", "Python automation", "Dataset curation and quality control"] },
     { "id": "programming", "category": "Programming & Libraries", "items": ["Python", "C", "C++", "JavaScript", "TensorFlow", "NumPy", "OpenCV", "Matplotlib"] }
   ],
