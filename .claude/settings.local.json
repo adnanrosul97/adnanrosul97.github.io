@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Get-ChildItem -Recurse -File src,public,dist | % FullName; Get-Content README.md)",
+      "PowerShell(Copy-Item Adnan_Rosul_CV.pdf public\\\\Adnan_Rosul_CV.pdf -Force; \\(Get-FileHash public\\\\Adnan_Rosul_CV.pdf\\).Hash)",
+      "PowerShell($env:Path = \"$PWD\\\\.tools\\\\node-v22.14.0-win-x64;$env:Path\"; npm.cmd run build)"
+    ]
+  }
+}

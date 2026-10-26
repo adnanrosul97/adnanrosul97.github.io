@@ -1,0 +1,140 @@
+{
+  "profile": {
+    "name": "MD Adnan Rosul",
+    "initials": "AR",
+    "role": "Electronics, Computer & Information Engineering graduate",
+    "institution": "International Islamic University Malaysia",
+    "location": "Dhaka, Bangladesh",
+    "email": "adnanrosul@gmail.com",
+    "phone": "+880-1684155524",
+    "image": "images/self_photo.jpg",
+    "imageAlt": "Portrait of MD Adnan Rosul",
+    "cv": "Adnan_Rosul_CV.pdf",
+    "intro": "I am an engineering graduate of International Islamic University Malaysia and currently pursuing an MSc in Computer Science and Engineering at BRAC University, majoring in Data Science. My academic and research interests lie at the intersection of artificial intelligence, machine learning, and data-driven systems.",
+    "about": "My undergraduate research focused on generative image modeling, where I explored white-box image cartoonization using Generative Adversarial Networks (GANs). This work developed my interest in generative models and motivated me to further investigate how modern AI systems can be made more efficient, scalable, interpretable, secure, and reliable.\n\nAlongside my academic background, I have professional experience in systems engineering and data analytics, which has strengthened my interest in bridging theoretical machine learning research with practical, real-world systems. I am particularly interested in efficient and scalable AI, generative models, explainable AI, trustworthy machine learning, and secure and reliable AI systems.",
+    "links": [
+      { "label": "LinkedIn", "url": "https://www.linkedin.com/in/adnanrosul/" }
+    ]
+  },
+  "interests": ["Efficient & scalable AI systems", "Generative AI models", "Explainable & secure AI", "Scalable & reliable ML systems"],
+  "research": [
+    {
+      "id": "white-box-cartoonization",
+      "title": "White-Box Image Cartoonization Using Generative Adversarial Networks",
+      "type": "Undergraduate thesis",
+      "year": "2021",
+      "institution": "International Islamic University Malaysia",
+      "supervisor": "Assoc. Prof. Dr. Nurul Fariza Zulkurnain",
+      "description": "Developed a white-box GAN for image cartoonization through surface, structure, and texture representations, with CycleGAN-based unpaired image translation to work without paired training data.",
+      "image": "",
+      "imageAlt": "Examples from the white-box image cartoonization thesis",
+      "metrics": [{ "value": "4,000", "label": "Curated images" }, { "value": "256 × 256", "label": "Image resolution" }, { "value": "10,000", "label": "Training iterations" }],
+      "details": [
+        "Curated 2,000 photographs and 2,000 cartoons; built a preprocessing pipeline with guided bilateral filtering and Felzenszwalb superpixel segmentation.",
+        "Combined adversarial, content-preservation, and structural-reconstruction losses. Trained with Adam at batch size 25 on Google Colab Pro, using approximately 13.5 GB VRAM over 9–10 hours.",
+        "Tracked Fréchet Inception Distance (FID) every 500 iterations. Qualitative comparisons showed clearer boundaries, fewer color artifacts, and better fine-detail preservation.",
+        "Reviewed more than 15 generative modeling frameworks, including CartoonGAN, CariGAN, and Conditional WGAN, comparing loss functions, evaluation metrics, and dataset strategies."
+      ],
+      "tags": ["Generative adversarial networks", "Computer vision", "Unpaired image translation"],
+      "links": []
+    }
+  ],
+  "education": [
+    {
+      "id": "brac",
+      "degree": "M.Sc., Computer Science & Engineering (Data Science)",
+      "institution": "BRAC University",
+      "period": "2026–Present",
+      "thesis": "",
+      "supervisor": "",
+      "image": "",
+      "imageAlt": "BRAC University",
+      "coursework": ["Deep Neural Network", "Big Data Analytics"]
+    },
+    {
+      "id": "iium",
+      "degree": "B.Eng., Electronics — Computer & Information Engineering",
+      "institution": "International Islamic University Malaysia (IIUM)",
+      "period": "2017–2021",
+      "award": "Dean’s List Award, 2020",
+      "thesis": "White-Box Image Cartoonization via Generative Adversarial Networks",
+      "supervisor": "Assoc. Prof. Dr. Nurul Fariza Zulkurnain",
+      "image": "",
+      "imageAlt": "International Islamic University Malaysia",
+      "coursework": ["Data Structures & Algorithm Design", "Data Mining", "Computer Architecture & Systems Design", "Digital Signal Processing", "Computational Methods & Statistics", "Database Systems", "Computer Communications & Networks", "Operating Systems", "Differential Equations"]
+    }
+  ],
+  "experience": [
+    {
+      "id": "vx-senior",
+      "role": "Senior Systems Engineer",
+      "organization": "VX Services Limited",
+      "location": "Bangladesh",
+      "period": "Jan 2023–Feb 2025",
+      "image": "",
+      "imageAlt": "VX Services Limited",
+      "highlights": ["Built SQL analytical pipelines and Power BI dashboards to monitor Grameenphone’s nationwide CCTV infrastructure, supporting 99.9% uptime across distributed sensor nodes.", "Deployed REST APIs for attendance analytics and IoT fire-detection monitoring, aggregating and synchronizing data across reporting systems.", "Led technical reporting and performance reviews, translating system telemetry into analytical reports for executives and cross-functional stakeholders."]
+    },
+    {
+      "id": "vx-engineer",
+      "role": "Systems Engineer",
+      "organization": "VX Services Limited",
+      "location": "Bangladesh",
+      "period": "May–Dec 2022",
+      "image": "",
+      "imageAlt": "VX Services Limited",
+      "highlights": ["Maintained Paxton Net2 and HikCentral Professional access-control and surveillance systems across multiple sites, using systematic debugging and fault isolation.", "Built executive dashboards combining live sensor data through data normalization and multi-source aggregation."]
+    },
+    {
+      "id": "learnio",
+      "role": "Software & IT Intern",
+      "organization": "Learnio",
+      "location": "Remote, Denmark",
+      "period": "Nov 2021–Jan 2022",
+      "image": "",
+      "imageAlt": "Learnio",
+      "highlights": ["Performed QA testing and contributed UI/UX improvements to educational software platforms during a remote internship."]
+    }
+  ],
+  "projects": [
+    {
+      "id": "iium-lazada",
+      "title": "IIUM Lazada Mobile E-Commerce Application",
+      "period": "2020–2021",
+      "category": "Mobile application",
+      "description": "Designed a mobile application with backend service integrations, applying database normalization, RESTful API design, and modular frontend architecture.",
+      "tags": ["REST APIs", "Database normalization", "Mobile development"],
+      "image": "",
+      "imageAlt": "IIUM Lazada mobile application",
+      "links": []
+    },
+    {
+      "id": "mosquito-repellent",
+      "title": "Smart Mosquito Repellent",
+      "period": "2020",
+      "category": "Autonomous IoT sensor system",
+      "description": "Designed and built a hardware system integrating sensor-triggered actuator control with embedded processing logic, demonstrating hardware-software co-design and real-time embedded system development.",
+      "tags": ["IoT", "Embedded systems", "Sensor-triggered control"],
+      "image": "",
+      "imageAlt": "Smart mosquito repellent hardware system",
+      "links": []
+    }
+  ],
+  "skills": [
+    { "id": "systems", "category": "Systems", "items": ["TensorFlow model training", "VRAM-aware batch scheduling", "Cloud checkpointing", "REST APIs", "IoT monitoring", "Real-time KPI dashboards"] },
+    { "id": "ai-cv", "category": "AI & Computer Vision", "items": ["White-box GANs", "CycleGAN", "Conditional WGAN", "CNNs", "VGG feature extraction", "Sparse coding", "Morphological component analysis", "Patch discriminators"] },
+    { "id": "data-engineering", "category": "Data Engineering", "items": ["SQL query optimization", "Power BI", "Python automation", "Dataset curation and quality control"] },
+    { "id": "programming", "category": "Programming & Libraries", "items": ["Python", "C", "C++", "JavaScript", "TensorFlow", "NumPy", "OpenCV", "Matplotlib"] }
+  ],
+  "recognition": [
+    { "id": "aspire", "title": "Aspire Leaders Program", "organization": "Harvard Leadership Initiative", "year": "2025" },
+    { "id": "deans-list", "title": "Dean’s List Award", "organization": "International Islamic University Malaysia", "year": "2020" },
+    { "id": "digital-marketing", "title": "Fundamentals of Digital Marketing", "organization": "Google Digital Garage", "year": "2020" },
+    { "id": "science-olympiad", "title": "8th Place — BAS Divisional Science Olympiad", "organization": "Bangladesh Academy of Sciences", "year": "2013" },
+    { "id": "jsc", "title": "JSC Result Scholarship", "organization": "National Board of Bangladesh", "year": "2011" }
+  ],
+  "leadership": [
+    { "id": "iium-community", "role": "Core Committee Member", "organization": "IIUM Bangladesh Community", "period": "2018–2019", "description": "Coordinated academic and cultural programs for the international student community." },
+    { "id": "british-council", "role": "Volunteer, Youth Sport Leadership Programme", "organization": "British Council", "period": "2011", "description": "Supported youth development and community engagement activities." }
+  ]
+}
