@@ -115,7 +115,9 @@ details[open] > summary span { transform: rotate(45deg); }
 .timeline-record { padding-left: 26px; border-left: 1px solid #cdd6ce; position: relative; padding-bottom: 34px; }
 .timeline-record::before { content: ''; width: 9px; height: 9px; border-radius: 50%; background: var(--accent); position: absolute; left: -5px; top: 7px; }
 .timeline-record:last-child { padding-bottom: 0; }
-.timeline-record h3 { font-size: 23px; }
+.timeline-record h3 { font-size: 26px; font-weight: 600; line-height: 1.4; margin-bottom: 4px; }
+.timeline-record .record-meta { font-size: 17px; font-weight: 500; color: var(--muted); line-height: 1.6; margin-bottom: 14px; align-items: baseline; }
+.timeline-record .record-meta > span:last-child { font-size: 24px; font-weight: 700; color: #121212; }
 .project-card { background: #f3f4ef; }
 .project-card .card-body { padding: 27px; }
 .project-card > .optional-image { margin: 0; border-radius: 5px 5px 0 0; }
@@ -229,7 +231,9 @@ details[open] > summary span { transform: rotate(45deg); }
   .education-record details { margin-top: 12px; }
   .education-facts { gap: 4px 14px; font-size: 14px; }
   .timeline-record { padding-left: 18px; padding-bottom: 20px; }
-  .timeline-record h3 { font-size: 19px; }
+  .timeline-record h3 { font-size: 20px; }
+  .timeline-record .record-meta { font-size: 15px; margin-bottom: 8px; }
+  .timeline-record .record-meta > span:last-child { font-size: 17px; }
   .optional-image { margin: 12px 0; }
   .project-card .card-body { padding: 18px; }
   .project-card h3 { font-size: 19px; }

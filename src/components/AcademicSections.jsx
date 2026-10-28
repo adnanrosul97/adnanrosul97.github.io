@@ -15,11 +15,11 @@ export function Education({ items }) {
 }
 
 export function Experience({ items }) {
-  return <Section id="experience" number="03" title="Relevant Professional Experience" subtitle="Systems engineering, analytics & software quality">{items.map(item => (
+  return <Section id="experience" number="03" title="Relevant Professional Experience">{items.map(item => (
     <article key={item.id} className="timeline-record">
+      <h3>{item.role}</h3>
       <div className="record-meta"><span>{item.organization} · {item.location}</span><span>{item.period}</span></div>
       <OptionalImage src={item.image} alt={item.imageAlt} className="organization-image" />
-      <h3>{item.role}</h3>
       <ul className="highlights">{item.highlights.map(text => <li key={text}>{text}</li>)}</ul>
     </article>
   ))}</Section>;
